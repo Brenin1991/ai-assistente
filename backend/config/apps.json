@@ -1,0 +1,229 @@
+{
+  "apps": {
+    "slack": {
+      "name": "Slack",
+      "command": "slack",
+      "path": "C:\\Users\\%USERNAME%\\AppData\\Local\\slack\\app-4.36.130\\Slack.exe",
+      "keywords": ["slack", "chat", "mensagem", "equipe", "trabalho"]
+    },
+    "chrome": {
+      "name": "Google Chrome",
+      "command": "chrome",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "keywords": ["chrome", "navegador", "browser", "google", "internet"]
+    },
+    "firefox": {
+      "name": "Mozilla Firefox",
+      "command": "firefox",
+      "path": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+      "keywords": ["firefox", "mozilla", "navegador"]
+    },
+    "edge": {
+      "name": "Microsoft Edge",
+      "command": "msedge",
+      "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+      "keywords": ["edge", "microsoft edge", "navegador"]
+    },
+    "calculator": {
+      "name": "Calculadora",
+      "command": "calc",
+      "path": "calc.exe",
+      "keywords": ["calculadora", "calc", "matemática", "conta"]
+    },
+    "notepad": {
+      "name": "Bloco de Notas",
+      "command": "notepad",
+      "path": "notepad.exe",
+      "keywords": ["notepad", "bloco de notas", "texto", "anotação"]
+    },
+    "paint": {
+      "name": "Paint",
+      "command": "mspaint",
+      "path": "mspaint.exe",
+      "keywords": ["paint", "desenho", "imagem", "editor"]
+    },
+    "wordpad": {
+      "name": "WordPad",
+      "command": "wordpad",
+      "path": "wordpad.exe",
+      "keywords": ["wordpad", "editor de texto", "documento"]
+    },
+    "explorer": {
+      "name": "Explorador de Arquivos",
+      "command": "explorer",
+      "path": "explorer.exe",
+      "keywords": ["explorador", "arquivos", "pasta", "explorer"]
+    },
+    "cmd": {
+      "name": "Prompt de Comando",
+      "command": "cmd",
+      "path": "cmd.exe",
+      "keywords": ["cmd", "terminal", "comando", "prompt"]
+    },
+    "powershell": {
+      "name": "Windows PowerShell",
+      "command": "powershell",
+      "path": "powershell.exe",
+      "keywords": ["powershell", "ps", "terminal", "script"]
+    },
+    "taskmgr": {
+      "name": "Gerenciador de Tarefas",
+      "command": "taskmgr",
+      "path": "taskmgr.exe",
+      "keywords": ["gerenciador", "tarefas", "processos", "taskmgr"]
+    },
+    "control": {
+      "name": "Painel de Controle",
+      "command": "control",
+      "path": "control.exe",
+      "keywords": ["controle", "painel", "configurações", "control"]
+    },
+    "settings": {
+      "name": "Configurações do Windows",
+      "command": "ms-settings:",
+      "path": "ms-settings:",
+      "keywords": ["configurações", "settings", "windows", "sistema"]
+    },
+    "vscode": {
+      "name": "Visual Studio Code",
+      "command": "code",
+      "path": "C:\\Users\\%USERNAME%\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+      "keywords": ["vscode", "code", "visual studio", "editor", "programação"]
+    },
+    "spotify": {
+      "name": "Spotify",
+      "command": "spotify",
+      "path": "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Spotify\\Spotify.exe",
+      "keywords": ["spotify", "música", "música", "streaming"]
+    },
+    "discord": {
+      "name": "Discord",
+      "command": "discord",
+      "path": "C:\\Users\\%USERNAME%\\AppData\\Local\\Discord\\app-1.0.9013\\Discord.exe",
+      "keywords": ["discord", "chat", "jogo", "comunidade"]
+    },
+    "steam": {
+      "name": "Steam",
+      "command": "steam",
+      "path": "C:\\Program Files (x86)\\Steam\\steam.exe",
+      "keywords": ["steam", "jogo", "games", "plataforma"]
+    },
+    "vlc": {
+      "name": "VLC Media Player",
+      "command": "vlc",
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe",
+      "keywords": ["vlc", "vídeo", "player", "mídia"]
+    },
+    "photoshop": {
+      "name": "Adobe Photoshop",
+      "command": "photoshop",
+      "path": "C:\\Program Files\\Adobe\\Adobe Photoshop 2024\\Photoshop.exe",
+      "keywords": ["photoshop", "adobe", "edição", "imagem"]
+    },
+    "excel": {
+      "name": "Microsoft Excel",
+      "command": "excel",
+      "path": "C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.EXE",
+      "keywords": ["excel", "planilha", "microsoft", "office"]
+    },
+    "word": {
+      "name": "Microsoft Word",
+      "command": "winword",
+      "path": "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE",
+      "keywords": ["word", "documento", "microsoft", "office"]
+    },
+    "powerpoint": {
+      "name": "Microsoft PowerPoint",
+      "command": "powerpnt",
+      "path": "C:\\Program Files\\Microsoft Office\\root\\Office16\\POWERPNT.EXE",
+      "keywords": ["powerpoint", "apresentação", "microsoft", "office"]
+    },
+    "obs": {
+      "name": "OBS Studio",
+      "command": "obs",
+      "path": "C:\\Program Files\\obs-studio\\bin\\64bit\\obs64.exe",
+      "keywords": ["obs", "streaming", "gravação", "live"]
+    },
+    "figma": {
+      "name": "Figma",
+      "command": "figma",
+      "path": "C:\\Users\\%USERNAME%\\AppData\\Local\\Figma\\Figma.exe",
+      "keywords": ["figma", "design", "ui", "ux", "prototipo"]
+    },
+    "zoom": {
+      "name": "Zoom",
+      "command": "zoom",
+      "path": "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
+      "keywords": ["zoom", "reunião", "vídeo", "chamada"]
+    },
+    "teams": {
+      "name": "Microsoft Teams",
+      "command": "teams",
+      "path": "C:\\Users\\%USERNAME%\\AppData\\Local\\Microsoft\\Teams\\Update.exe",
+      "keywords": ["teams", "microsoft", "reunião", "equipe"]
+    },
+    "whatsapp": {
+      "name": "WhatsApp",
+      "command": "whatsapp",
+      "path": "C:\\Users\\%USERNAME%\\AppData\\Local\\WhatsApp\\WhatsApp.exe",
+      "keywords": ["whatsapp", "mensagem", "chat", "zap"]
+    },
+    "telegram": {
+      "name": "Telegram",
+      "command": "telegram",
+      "path": "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Telegram Desktop\\Telegram.exe",
+      "keywords": ["telegram", "mensagem", "chat", "telegrama"]
+    },
+    "notion": {
+      "name": "Notion",
+      "command": "notion",
+      "path": "C:\\Users\\%USERNAME%\\AppData\\Local\\Programs\\Notion\\Notion.exe",
+      "keywords": ["notion", "notas", "organização", "produtividade"]
+    },
+    "obsidian": {
+      "name": "Obsidian",
+      "command": "obsidian",
+      "path": "C:\\Users\\%USERNAME%\\AppData\\Local\\Obsidian\\Obsidian.exe",
+      "keywords": ["obsidian", "notas", "wiki", "conhecimento"]
+    }
+  },
+  "search_engines": {
+    "google": {
+      "name": "Google",
+      "url": "https://www.google.com/search?q=",
+      "keywords": ["google", "pesquisar", "buscar"]
+    },
+    "bing": {
+      "name": "Bing",
+      "url": "https://www.bing.com/search?q=",
+      "keywords": ["bing", "microsoft", "pesquisar"]
+    },
+    "duckduckgo": {
+      "name": "DuckDuckGo",
+      "url": "https://duckduckgo.com/?q=",
+      "keywords": ["duckduckgo", "privacidade", "pesquisar"]
+    }
+  },
+  "system_commands": {
+    "shutdown": {
+      "command": "shutdown /s /t 0",
+      "description": "Desligar o computador",
+      "keywords": ["desligar", "shutdown", "apagar"]
+    },
+    "restart": {
+      "command": "shutdown /r /t 0",
+      "description": "Reiniciar o computador",
+      "keywords": ["reiniciar", "restart", "reboot"]
+    },
+    "sleep": {
+      "command": "rundll32.exe powrprof.dll,SetSuspendState 0,1,0",
+      "description": "Colocar em modo de suspensão",
+      "keywords": ["suspender", "sleep", "dormir"]
+    },
+    "lock": {
+      "command": "rundll32.exe user32.dll,LockWorkStation",
+      "description": "Bloquear a tela",
+      "keywords": ["bloquear", "lock", "tela"]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "ai-assistente-frontend",
+  "version": "1.0.0",
+  "description": "Frontend do assistente pessoal",
+  "main": "public/electron.js",
+  "homepage": "./",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "concurrently \"npm run dev:react\" \"npm run dev:electron\"",
+    "dev:react": "react-scripts start",
+    "dev:electron": "cross-env NODE_ENV=development electron .",
+    "build:electron": "npm run build && electron-builder",
+    "electron": "electron .",
+    "electron-dev": "cross-env NODE_ENV=development electron ."
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "axios": "^1.6.2",
+    "lucide-react": "^0.294.0",
+    "framer-motion": "^10.16.16",
+    "tailwindcss": "^3.3.6",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32"
+  },
+  "devDependencies": {
+    "electron": "^28.1.0",
+    "electron-builder": "^24.6.4",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "concurrently": "^8.2.2",
+    "cross-env": "^7.0.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
